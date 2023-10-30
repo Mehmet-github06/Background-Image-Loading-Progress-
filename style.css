@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;900&family=Rubik+Moonrocks&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Rubik Moonrocks', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bg{
+    background: no-repeat center/cover url(./img/6549944.png);
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    filter: blur(0px);
+}
+
+/* filter özelliğine bir veya birden fazla filtre işlevi atanabilir. Bazı sık kullanılan filtreler şunlar olabilir:
+
+blur(): Öğeyi belirli bir miktar bulanıklaştırır.
+brightness(): Öğenin parlaklığını ayarlar.
+contrast(): Öğenin kontrastını ayarlar.
+grayscale(): Öğeyi siyah beyaz yapar.
+hue-rotate(): Öğenin renk tonunu değiştirir.
+invert(): Öğenin renklerini tersine çevirir.
+opacity(): Öğenin opaklığını ayarlar.
+saturate(): Öğenin doygunluğunu ayarlar.
+sepia(): Öğeye sepia efekti uygular. */
+
+.loading-text{
+    color:#f5d703;
+    font-size: 100px;
+}
